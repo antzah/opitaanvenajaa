@@ -7,7 +7,6 @@ p {
 }
 
 #sanadiv {
-	display: none;
 	padding: 15px 20px;
 	border: 1px solid rgba(0,0,0,0.15);
 	margin-top: 20px;
@@ -39,13 +38,26 @@ p {
 	display: inline-block;
 }
 
+#kuuntele {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 15px 0 5px;
+	cursor:pointer;
+	transition: all 0.2s ease;
+}
+
+#kuuntele:hover,
+#kuuntele:focus {
+	color: red;
+	transition: all 0.2s ease;
+}
+
 #sana, #lausunta {
 	font-weight: bold;
 	color: red;
 }
 
 #vaihtoehdotdiv {
-	display: none;
 	text-align: center;
 	position: relative;
 }
@@ -68,7 +80,7 @@ p {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-    min-height: 12em;
+    min-height: 10em;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -91,8 +103,19 @@ p {
 }
 
 #scorediv {
-	margin-top: 20px;
-	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+#score {
+	padding: 20px 30px;
+	border: 1px solid rgba(0,0,0,0.2);
+	border-radius: 2px;
+	display: inline-block;
+
+	-webkit-box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.15);
+    box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.15);
 }
 
 #vastaus {

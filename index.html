@@ -7,6 +7,8 @@
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="style.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="text2speech.js"></script>
+	<script src="howler.js"></script>
 	<script src="sanat.js"></script>
 	<script src="quiz.js"></script>
 </head>
@@ -20,8 +22,9 @@
 		<div id="lausuntadiv">
 			<p id="lausuntalabel">Lausunta:</p>
 			<p id="lausunta">2</p>
+			<p onclick='responsiveVoice.speak("Hello World", "Russian Female");' id="kuuntele">Kuuntele, miten sana lausutaan</p>
 		</div>
-		<h5 id="score">Pisteputki: 0</h5>
+		
 	</div>
 
 	<div id="vaihtoehdotdiv">
@@ -40,7 +43,21 @@
 		<p id="vastaus"></p> <!-- Äijä huijaa! -->
 	</div>
 
+	<div id="scorediv">
+		<h3 id="score">Pisteputki: 0</h3>
+	</div>
+
 </div>
+
+<audio id="right">
+  <source src="ding.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+<audio id="wrong">
+  <source src="error.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
 
 </body>
 
