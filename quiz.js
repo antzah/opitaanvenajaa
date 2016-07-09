@@ -2,17 +2,14 @@ $(document).ready(function(){
 
   /*
   * Start by generating a question and
-  * setting the score to zero
+  * setting the score to zero + initializing
+  * other variables
   */
-
   generateQuestion();
   var score = 0;
-
   var right = new Audio("ding.mp3");
   var wrong = new Audio("error.mp3");
-
-  right.mediaGroup = 'soundGroup';
-  wrong.mediaGroup = 'soundGroup';
+  var soundOn = true;
 
   /* 
   * Grabs an object from sanat.js
@@ -20,7 +17,6 @@ $(document).ready(function(){
   * values to the document
   */
   function generateQuestion(){
-
     // Fade in effect to start
     $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 100}, 100);
 
@@ -35,21 +31,31 @@ $(document).ready(function(){
     $("#vastaus").text(sanaArray["oikea"]);
 
     $("#kuuntele").attr("onclick", "responsiveVoice.speak('" + sanaArray['sana'] + "', 'Russian Female');");
-
   }
 
+  /*
+  * Clicking a choice triggers a check
+  * where the correct string, which is 
+  * "there" but hidden is compared to
+  * the choice of the player. Correct
+  * answer adds a point, wrong answer
+  * cuts the streak short
+  */
   $(".choicediv").click(function(){
-
     var selection = $("p", this).text();
     var oikea = $("#vastaus").text();
 
     if (selection == oikea){
-      var sound = new Howl({urls: ['ding.mp3']}).play();
+      if (soundOn){
+        var sound = new Howl({urls: ['ding.mp3']}).play();
+      }
       score++;
     }
 
     else {
-      var sound = new Howl({urls: ['error.mp3']}).play();
+      if (soundOn){
+        var sound = new Howl({urls: ['error.mp3']}).play();
+      }
       score = 0;
     }
 
@@ -60,7 +66,24 @@ $(document).ready(function(){
     setTimeout(function(){
       generateQuestion();
     }, 200);
+  })
 
+
+
+  /*
+  * Mute option because the sounds might
+  * annoy some people :^(
+  */
+  $("#sound").click(function(){
+    if (soundOn){
+      soundOn = false;
+      $("#sound").css("background", "rgba(0,0,0,0.1");
+    }
+
+    else {
+      soundOn = true;
+      $("#sound").css("background", "#fff");
+    }
   })
 
 })
