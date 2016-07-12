@@ -246,4 +246,137 @@ var sanat =
     "vaihtoehdot": ["Kun, milloin", "Kansi", "Huomenna", "Tuomari"],
     "oikea": "Kun, milloin"
   },
+  {
+    "sana": "Уже",
+    "lausunta": "Uzsche",
+    "vaihtoehdot": ["Jo", "Kun", "Tuo", "Kello"],
+    "oikea": "Jo"
+  },
+  {
+    "sana": "Для",
+    "lausunta": "Dlja",
+    "vaihtoehdot": ["Päivä", "Jotain varten, eng. for", "Missä, mistä", "Sää"],
+    "oikea": "Jotain varten, eng. for"
+  },
+  {
+    "sana": "Вот",
+    "lausunta": "Vot",
+    "vaihtoehdot": ["Tämä, tässä", "Vesi", "Vodka", "Tuoli"],
+    "oikea": "Tämä, tässä"
+  },
+  {
+    "sana": "Кто",
+    "lausunta": "Kto",
+    "vaihtoehdot": ["Päivämäärä", "Jotain varten, eng. for", "Tunti", "Kuka, joku, ketkä"],
+    "oikea": "Kuka, joku, ketkä"
+  },
+  {
+    "sana": "Да",
+    "lausunta": "Da",
+    "vaihtoehdot": ["Ei", "Kyllä", "Mitä", "Päivä"],
+    "oikea": "Kyllä"
+  },
+  {
+    "sana": "Говорить",
+    "lausunta": "Gavarit",
+    "vaihtoehdot": ["Lukea", "Juosta", "Puhua", "Huutaa"],
+    "oikea": "Puhua"
+  },
+  {
+    "sana": "Год",
+    "lausunta": "God",
+    "vaihtoehdot": ["Jumala", "Tuli", "Vuosi", "Kansa"],
+    "oikea": "Vuosi"
+  },
+  {
+    "sana": "Знать",
+    "lausunta": "Znat",
+    "vaihtoehdot": ["Lukea", "Puhua", "Tietää", "Kaatua"],
+    "oikea": "Tietää"
+  },
+  {
+    "sana": "Мой",
+    "lausunta": "Moi",
+    "vaihtoehdot": ["Hei", "Minun", "Meidän", "Teidän"],
+    "oikea": "Minun"
+  },
+  {
+    "sana": "До",
+    "lausunta": "Do",
+    "vaihtoehdot": ["Johonkin, eng. to", "Jotain varten, eng. for", "Kun, milloin", "Jos"],
+    "oikea": "Johonkin, eng. to"
+  },
+  {
+    "sana": "Или",
+    "lausunta": "Ili",
+    "vaihtoehdot": ["Kun", "Vai", "Yhdessä", "Näin"],
+    "oikea": "Vai"
+  },
+  {
+    "sana": "Если",
+    "lausunta": "Jesli",
+    "vaihtoehdot": ["Joki", "Kala", "Jos", "Tuoli"],
+    "oikea": "Jos"
+  },
+  {
+    "sana": "Время",
+    "lausunta": "Vrimja",
+    "vaihtoehdot": ["Aika", "Jousi", "Viulu", "Tuoli"],
+    "oikea": "Aika"
+  },
+  {
+    "sana": "Рука",
+    "lausunta": "Ruka",
+    "vaihtoehdot": ["Vuori", "Lasi", "Käsi", "Nenä"],
+    "oikea": "Käsi"
+  },
+  {
+    "sana": "Нет",
+    "lausunta": "Njet",
+    "vaihtoehdot": ["Ei", "Tuo", "Jos", "Mutta"],
+    "oikea": "Ei"
+  },
+  {
+    "sana": "Самый",
+    "lausunta": "Samyi",
+    "vaihtoehdot": ["Erittäin, eniten", "Sama", "Sammio", "Suora"],
+    "oikea": "Erittäin, eniten"
+  },
+  {
+    "sana": "Ни",
+    "lausunta": "Ni",
+    "vaihtoehdot": ["Ei kumpikaan", "He", "Meidän", "Heidän"],
+    "oikea": "Ei kumpikaan"
+  },
+  {
+    "sana": "Стать",
+    "lausunta": "Stat",
+    "vaihtoehdot": ["Seistä", "Pysähtyä, lopettaa", "Tulla joksikin, aloittaa", "Uida"],
+    "oikea": "Tulla joksikin, aloittaa"
+  },
+  {
+    "sana": "Большой",
+    "lausunta": "Balshoi",
+    "vaihtoehdot": ["Pieni", "Hiljainen", "Suuri", "Pallo"],
+    "oikea": "Suuri"
+  },
+  {
+    "sana": "Даже",
+    "lausunta": "Dasche",
+    "vaihtoehdot": ["Auto", "Mökki", "Kartta", "Jopa"],
+    "oikea": "Jopa"
+  },
+  {
+    "sana": "Другой",
+    "lausunta": "Drugoi",
+    "vaihtoehdot": ["Lääke", "Erilainen, jokin toinen", "Kallis", "Edullinen"],
+    "oikea": "Erilainen, jokin toinen"
+  },
+  {
+    "sana": "Наш",
+    "lausunta": "Nash",
+    "vaihtoehdot": ["Teltta", "Haavi", "Meidän", "Me"],
+    "oikea": "Meidän"
+  },
+
 ];
