@@ -142,7 +142,7 @@ var sanat =
     "sana": "За",
     "lausunta": "Sza",
     "vaihtoehdot": ["Jk. takana, jossakin", "Tee", "Ja", "Mutta"],
-    "oikea": "Jk. takana"
+    "oikea": "Jk. takana, jossakin"
   },
   {
     "sana": "Вы",

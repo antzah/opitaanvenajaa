@@ -21,7 +21,17 @@ $(document).ready(function(){
     $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 100}, 100);
 
     var sanaArray = sanat[Math.floor(Math.random()*sanat.length)];
-    
+    var currentWord = $("#vastaus").text();
+
+    /*
+    * Prevent same question popping
+    * two times in a row
+    */
+    if (currentWord == sanaArray["oikea"]) {
+      sanaArray = sanat[Math.floor(Math.random()*sanat.length)];
+    }
+
+
     $("#sana").text(sanaArray["sana"]);
     $("#lausunta").text(sanaArray["lausunta"]);
     $("#choice1").text(sanaArray["vaihtoehdot"][0]);
@@ -59,14 +69,16 @@ $(document).ready(function(){
     }
 
     else {
+      var rightChoice = $(".choicediv:contains('"+oikea+"')");
+
       if (soundOn){
         var sound = new Howl({urls: ['error.mp3']}).play();
       }
 
-      $(".choicediv:contains('"+oikea+"')").css({"background" : "#62e04d", "color" : "#fff", "border" : "2px solid rgba(0,0,0,0.4)"});
+      rightChoice.css({"background" : "#62e04d", "color" : "#fff", "border" : "2px solid rgba(0,0,0,0.4)"});
 
       setTimeout(function(){
-        $(".choicediv:contains('"+oikea+"')").css({"background" : "#d0ffc8", "color" : "rgb(99, 99, 99)", "border" : "1px solid rgba(0,0,0,0.05)"});
+        rightChoice.css({"background" : "#d0ffc8", "color" : "rgb(99, 99, 99)", "border" : "1px solid rgba(0,0,0,0.05)"});
       }, 1500);
 
       setTimeout(function(){
@@ -76,12 +88,8 @@ $(document).ready(function(){
       }, 1600);
 
       score = 0;
-    }
-
-    
+    }    
   })
-
-
 
   /*
   * Mute option because the sounds might
