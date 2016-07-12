@@ -13,8 +13,8 @@ var sanat =
     "oikea": "Ja, sekä"
   }, 
   {
-    "sana": "В",
-    "lausunta": "v",
+    "sana": "В, во",
+    "lausunta": "V, vo",
     "vaihtoehdot": ["Ja", "Jk. sisällä", "Jonkin päällä", "Mutta"],
     "oikea": "Jk. sisällä"
   }, 
@@ -378,5 +378,208 @@ var sanat =
     "vaihtoehdot": ["Teltta", "Haavi", "Meidän", "Me"],
     "oikea": "Meidän"
   },
-
+  {
+    "sana": "Свой",
+    "lausunta": "Svoi",
+    "vaihtoehdot": ["Jonkun, jonkin", "Vapaus", "Säästää", "Suo"],
+    "oikea": "Jonkun, jonkin"
+  },
+  {
+    "sana": "Ну",
+    "lausunta": "Nu",
+    "vaihtoehdot": ["Noh, mutta kun", "Nyt", "Erilainen, jokin toinen", "Yö"],
+    "oikea": "Noh, mutta kun"
+  },
+  {
+    "sana": "Под",
+    "lausunta": "Pod",
+    "vaihtoehdot": ["Tabletti", "Pöytä", "Alla", "Tuoli"],
+    "oikea": "Alla"
+  },
+  {
+    "sana": "Где",
+    "lausunta": "Gdie",
+    "vaihtoehdot": ["Päivä", "Tunti", "Missä", "Tuuri"],
+    "oikea": "Missä"
+  },
+  {
+    "sana": "Дело",
+    "lausunta": "Djela",
+    "vaihtoehdot": ["Jakaa", "Asia, affääri", "Tunti", "Kuukausi"],
+    "oikea": "Asia, affääri"
+  },
+  {
+    "sana": "Есть",
+    "lausunta": "Jest",
+    "vaihtoehdot": ["Juoda", "Syödä", "Juosta", "Olla"],
+    "oikea": "Syödä"
+  },
+  {
+    "sana": "Сам",
+    "lausunta": "Sam",
+    "vaihtoehdot": ["Sama", "Samovaari", "Itse, henkilökohtaisesti", "Jonkun, jonkin"],
+    "oikea": "Itse, henkilökohtaisesti"
+  },
+  {
+    "sana": "Раз",
+    "lausunta": "Raz",
+    "vaihtoehdot": ["Matto", "Tuoli", "Aika", "Hengittää, huokaista"],
+    "oikea": "Tuoli"
+  },
+  {
+    "sana": "Чтобы",
+    "lausunta": "Chtoby",
+    "vaihtoehdot": ["Jotta", "Kun", "Ja", "Mutta"],
+    "oikea": "Jotta"
+  },
+  {
+    "sana": "Два",
+    "lausunta": "Dva",
+    "vaihtoehdot": ["Tuoda", "Juoda", "Kaksi", "Vaaka"],
+    "oikea": "Kaksi"
+  },
+  {
+    "sana": "Там",
+    "lausunta": "Tam",
+    "vaihtoehdot": ["Tammi", "Tumma", "Juoma", "Siellä"],
+    "oikea": "Siellä"
+  },
+  {
+    "sana": "Чем",
+    "lausunta": "Chem",
+    "vaihtoehdot": ["Tee", "Puu", "Tuoli", "Jonkin sijaan, kuin"],
+    "oikea": "Jonkin sijaan, kuin"
+  },
+  {
+    "sana": "Глаз",
+    "lausunta": "Glaz",
+    "vaihtoehdot": ["Lasi", "Silmä", "Portti", "Tyyny"],
+    "oikea": "Silmä"
+  },
+  {
+    "sana": "Жизнь",
+    "lausunta": "Zschizn",
+    "vaihtoehdot": ["Metsä", "Silmä", "Elämä", "Tuoli"],
+    "oikea": "Elämä"
+  },
+  {
+    "sana": "Первый",
+    "lausunta": "Piervyi",
+    "vaihtoehdot": ["Satama", "Laituri", "Ensimmäinen", "Jousi"],
+    "oikea": "Ensimmäinen"
+  },
+  {
+    "sana": "День",
+    "lausunta": "Dien",
+    "vaihtoehdot": ["Viikko", "Tunti", "Päivä", "Tuoli"],
+    "oikea": "Päivä"
+  },
+  {
+    "sana": "Тут",
+    "lausunta": "Tut",
+    "vaihtoehdot": ["Tutti", "Koti", "Täällä, nyt", "Portti"],
+    "oikea": "Täällä, nyt"
+  },
+  {
+    "sana": "Ничто",
+    "lausunta": "Nichto",
+    "vaihtoehdot": ["Ei mitään", "Niska", "Tuoli", "Istua"],
+    "oikea": "Ei mitään"
+  },
+  {
+    "sana": "Потом",
+    "lausunta": "Patom",
+    "vaihtoehdot": ["Jälkeen, myöhemmin", "Poiju", "Laituri", "Satama"],
+    "oikea": "Jälkee, myöhemmin"
+  },
+  {
+    "sana": "Очень",
+    "lausunta": "Ochen",
+    "vaihtoehdot": ["Kahdeksan", "Kahdeksas", "Erittäin", "Uuni"],
+    "oikea": "Erittäin"
+  },
+  {
+    "sana": "Со",
+    "lausunta": "So",
+    "vaihtoehdot": ["Ei", "Kyllä", "Ja", "Jonkin kanssa, jonkin jälkeen"],
+    "oikea": "Jonkin kanssa, jonkin jälkeen"
+  },
+  {
+    "sana": "Хотеть",
+    "lausunta": "Hatjit",
+    "vaihtoehdot": ["Kasata, koota", "Nostaa", "Haluta", "Rakentaa"],
+    "oikea": "Haluta"
+  },
+  {
+    "sana": "Ли",
+    "lausunta": "Li",
+    "vaihtoehdot": ["Vai, jos", "Ehkä", "Mutta", "Koska"],
+    "oikea": "Vai, jos"
+  },
+  {
+    "sana": "При",
+    "lausunta": "Pri",
+    "vaihtoehdot": ["Ennen jotakin", "Jonkin jälkeen", "Jossakin, johonkin aikaan", "Piirakka"],
+    "oikea": "Jossakin, johonkin aikaan"
+  },
+  {
+    "sana": "Голова",
+    "lausunta": "Galava",
+    "vaihtoehdot": ["Universumi", "Maapallo", "Mieli, pää, aivot", "Nenä"],
+    "oikea": "Mieli, pää, aivot"
+  },
+  {
+    "sana": "Надо",
+    "lausunta": "Nada",
+    "vaihtoehdot": ["Ei mitään", "Tuolla", "Täytyy, pakko", "Saa, haluta"],
+    "oikea": "Täytyy, pakko"
+  },
+  {
+    "sana": "Без",
+    "lausunta": "Biez",
+    "vaihtoehdot": ["Piirakka", "Tuoli", "Ilman", "Paras"],
+    "oikea": "Ilman"
+  },
+  {
+    "sana": "Видеть",
+    "lausunta": "Vidit",
+    "vaihtoehdot": ["Kuulla", "Koskea", "Nähdä", "Tuntea"],
+    "oikea": "Nähdä"
+  },
+  {
+    "sana": "Идти",
+    "lausunta": "Idti",
+    "vaihtoehdot": ["Tulla, mennä", "Idiootti", "Kuunnella", "Hyönteiset"],
+    "oikea": "Tulla, mennä"
+  },
+  {
+    "sana": "Теперь",
+    "lausunta": "Tipir",
+    "vaihtoehdot": ["Tupakka", "Tyypillistä", "Nyt, nykyään", "Kaikki"],
+    "oikea": "Nyt, nykyään"
+  },
+  {
+    "sana": "Тоже",
+    "lausunta": "Toosche",
+    "vaihtoehdot": ["Vielä", "Myös", "Kaikki", "Paras"],
+    "oikea": "Myös"
+  },
+  {
+    "sana": "Стоять",
+    "lausunta": "Stajat",
+    "vaihtoehdot": ["Juosta", "Kävellä", "Seistä", "Kantaa"],
+    "oikea": "Seistä"
+  },
+  {
+    "sana": "Друг",
+    "lausunta": "Drugh",
+    "vaihtoehdot": ["Juopunut", "Kissa", "Kello", "Kaveri"],
+    "oikea": "Kaveri"
+  },
+  {
+    "sana": "Дом",
+    "lausunta": "Dom",
+    "vaihtoehdot": ["Koti, talo", "Keittiö", "Kylpyhuone", "Makuuhuone"],
+    "oikea": "Koti, talo"
+  },
 ];
