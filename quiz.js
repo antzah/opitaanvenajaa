@@ -37,9 +37,11 @@ $(document).ready(function(){
   * Clicking a choice triggers a check
   * where the correct string, which is 
   * "there" but hidden is compared to
-  * the choice of the player. Correct
-  * answer adds a point, wrong answer
-  * cuts the streak short
+  * the choice of the player. 
+  *
+  * Correct answer adds a point, wrong answer
+  * cuts the streak short and displays
+  * the correct answer
   */
   $(".choicediv").click(function(){
     var selection = $("p", this).text();
@@ -50,22 +52,33 @@ $(document).ready(function(){
         var sound = new Howl({urls: ['ding.mp3']}).play();
       }
       score++;
+
+      $("#score").text("Pisteputki: " + score);
+      $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 0}, 100);
+      generateQuestion();
     }
 
     else {
       if (soundOn){
         var sound = new Howl({urls: ['error.mp3']}).play();
       }
+
+      $(".choicediv:contains('"+oikea+"')").css({"background" : "#62e04d", "color" : "#fff", "border" : "2px solid rgba(0,0,0,0.4)"});
+
+      setTimeout(function(){
+        $(".choicediv:contains('"+oikea+"')").css({"background" : "#d0ffc8", "color" : "rgb(99, 99, 99)", "border" : "1px solid rgba(0,0,0,0.05)"});
+      }, 1500);
+
+      setTimeout(function(){
+        $("#score").text("Pisteputki: " + score);
+        $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 0}, 100);
+        generateQuestion();
+      }, 1600);
+
       score = 0;
     }
 
-    $("#score").text("Pisteputki: " + score);
-
-    $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 0}, 100);
-
-    setTimeout(function(){
-      generateQuestion();
-    }, 200);
+    
   })
 
 
