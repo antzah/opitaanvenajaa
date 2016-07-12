@@ -423,8 +423,8 @@ var sanat =
   {
     "sana": "Раз",
     "lausunta": "Raz",
-    "vaihtoehdot": ["Matto", "Tuoli", "Aika", "Hengittää, huokaista"],
-    "oikea": "Tuoli"
+    "vaihtoehdot": ["Matto", "Tuoli", "Aika, kerta", "Hengittää, huokaista"],
+    "oikea": "Aika, kerta"
   },
   {
     "sana": "Чтобы",
@@ -490,7 +490,7 @@ var sanat =
     "sana": "Потом",
     "lausunta": "Patom",
     "vaihtoehdot": ["Jälkeen, myöhemmin", "Poiju", "Laituri", "Satama"],
-    "oikea": "Jälkee, myöhemmin"
+    "oikea": "Jälkeen, myöhemmin"
   },
   {
     "sana": "Очень",
