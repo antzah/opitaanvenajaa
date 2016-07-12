@@ -120,4 +120,130 @@ var sanat =
     "vaihtoehdot": ["Ja", "Mutta", "Jossakin, jollakin, jk. kanssa", "Se"],
     "oikea": "Jossakin, jollakin, jk. kanssa"
   },
+  {
+    "sana": "Ты",
+    "lausunta": "Ty",
+    "vaihtoehdot": ["Tuo", "Kiitos", "Sinä", "Mutta"],
+    "oikea": "Sinä"
+  },
+  {
+    "sana": "Из",
+    "lausunta": "Isz",
+    "vaihtoehdot": ["Hyttynen", "Vesi", "Jostakin, jostain, jossain", "Missä"],
+    "oikea": "Jostakin, jostain, jossain"
+  },
+  {
+    "sana": "Мы",
+    "lausunta": "My",
+    "vaihtoehdot": ["Me", "Minun", "Kissa", "Jostakin, jostain, jossain"],
+    "oikea": "Me"
+  },
+  {
+    "sana": "За",
+    "lausunta": "Sza",
+    "vaihtoehdot": ["Jk. takana, jossakin", "Tee", "Ja", "Mutta"],
+    "oikea": "Jk. takana"
+  },
+  {
+    "sana": "Вы",
+    "lausunta": "Vy",
+    "vaihtoehdot": ["Vuori", "Te", "Suola", "Meri"],
+    "oikea": "Te"
+  },
+  {
+    "sana": "Так",
+    "lausunta": "Tak",
+    "vaihtoehdot": ["Kiitos", "Mutta", "Joten, kuten, juuri niin kuin", "Jostakin, jostain, jossain"],
+    "oikea": "Joten, kuten, juuri niin kuin"
+  },
+  {
+    "sana": "Же",
+    "lausunta": "Zsche",
+    "vaihtoehdot": ["Kun taas, ja, jonka", "Jostakin, jostain, jossain", "Tee", "Mitä"],
+    "oikea": "Kun taas, ja, jonka"
+  },
+  {
+    "sana": "От",
+    "lausunta": "Ot",
+    "vaihtoehdot": ["Kun", "Mutta", "Tuo", "Jostain"],
+    "oikea": "Jostain"
+  },
+  {
+    "sana": "Сказаты",
+    "lausunta": "Skazat",
+    "vaihtoehdot": ["Kulkea", "Sanoa, puhua", "Juosta", "Katsoa, katsella"],
+    "oikea": "Sanoa, puhua"
+  },
+  {
+    "sana": "Который",
+    "lausunta": "Katoröi",
+    "vaihtoehdot": ["Kuka, mikä, kenestä, joka", "Kärryt", "Kuljettaa", "Kuukausi"],
+    "oikea": "Kuka, mikä, kenestä, joka"
+  },
+  {
+    "sana": "Мочь",
+    "lausunta": "Moch",
+    "vaihtoehdot": ["Moskiitto", "Tuoli", "Pystyä, kyetä", "Juosta, hölkätä"],
+    "oikea": "Pystyä, kyetä"
+  },
+  {
+    "sana": "Человек",
+    "lausunta": "Chelaviek",
+    "vaihtoehdot": ["Metsä", "Henkilö, ihminen", "Koira, koiranpentu", "Tuoli"],
+    "oikea": "Henkilö, ihminen"
+  },
+  {
+    "sana": "O",
+    "lausunta": "O",
+    "vaihtoehdot": ["-verbi- + jostain, jotakin", "Mutta", "Ja", "Jos"],
+    "oikea": "-verbi- + jostain, jotakin"
+  },
+  {
+    "sana": "Один",
+    "lausunta": "Adin",
+    "vaihtoehdot": ["Odin, muinainen jumala", "Jalokivi", "Yksi", "Yhdessä"],
+    "oikea": "Yksi"
+  },
+  {
+    "sana": "Ещё",
+    "lausunta": "Jishjo",
+    "vaihtoehdot": ["Vielä, vieläkään", "Kun", "Tuo", "Hän, nainen"],
+    "oikea": "Vielä, vieläkään"
+  },
+  {
+    "sana": "Бы",
+    "lausunta": "By",
+    "vaihtoehdot": ["Kaupunki", "Hyttynen", "Voisin, olisin voinut", "Juoda"],
+    "oikea": "Voisin, olisin voinut"
+  },
+  {
+    "sana": "Такой",
+    "lausunta": "Takoi",
+    "vaihtoehdot": ["Tällainen, jollainen", "Rakentaa", "Missä, mistä", "Juosta"],
+    "oikea": "Tällainen, jollainen"
+  },
+  {
+    "sana": "Только ",
+    "lausunta": "Tolka",
+    "vaihtoehdot": ["Taulu", "Vain", "Kuutamo", "Vuorokausi"],
+    "oikea": "Vain"
+  },
+  {
+    "sana": "Себя",
+    "lausunta": "Sibja",
+    "vaihtoehdot": ["Sisko", "Itseään, itsestäsi", "Silta", "Serkku"],
+    "oikea": "Itseään, itsestäsi"
+  },
+  {
+    "sana": "Какой",
+    "lausunta": "Kakoi",
+    "vaihtoehdot": ["Juosta", "Takit", "Millainen", "Tämä"],
+    "oikea": "Millainen"
+  },
+  {
+    "sana": "Когда",
+    "lausunta": "Kagda",
+    "vaihtoehdot": ["Kun, milloin", "Kansi", "Huomenna", "Tuomari"],
+    "oikea": "Kun, milloin"
+  },
 ];
