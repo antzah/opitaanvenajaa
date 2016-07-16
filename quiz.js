@@ -64,7 +64,7 @@ $(document).ready(function(){
       score++;
 
       $("#score").text("Pisteputki: " + score);
-      $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 0}, 100);
+      $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 0}, 200);
       generateQuestion();
     }
 
@@ -79,13 +79,13 @@ $(document).ready(function(){
 
       setTimeout(function(){
         rightChoice.css({"background" : "#d0ffc8", "color" : "rgb(99, 99, 99)", "border" : "1px solid rgba(0,0,0,0.05)"});
-      }, 1500);
+      }, 2500);
 
       setTimeout(function(){
         $("#score").text("Pisteputki: " + score);
-        $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 0}, 100);
+        $('#sanadiv, #vaihtoehdotdiv').animate({opacity: 0}, 200);
         generateQuestion();
-      }, 1600);
+      }, 2600);
 
       score = 0;
     }    
