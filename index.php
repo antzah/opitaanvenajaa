@@ -1,3 +1,5 @@
+<?php $title = "Sata sanaa – opi ne tärkeimmät ensin!"; ?>
+<?php $desc = "Opettelemalla kielen sata yleisintä sanaa otat ison harppauksen kohti uuden kielen oppimista."; ?>
 <?php include "header.php"; ?>
 
 <div class="index-main container">

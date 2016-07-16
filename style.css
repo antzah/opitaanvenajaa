@@ -48,18 +48,8 @@ p {
 	display: inline-block;
 }
 
-#kuuntele {
-	font-weight: bold;
-	font-size: 28px;
-	padding: 15px 0 5px;
-	cursor:pointer;
-	transition: all 0.2s ease;
-}
-
-#kuuntele:hover,
-#kuuntele:focus {
-	color: red;
-	transition: all 0.2s ease;
+#lausuntadiv img:hover {
+	cursor: pointer;
 }
 
 #sana, #lausunta {
@@ -101,16 +91,22 @@ p {
     box-shadow: 2px 1px 8px 0px rgba(0,0,0,0.15);
 }
 
-.choicediv:hover {
-	background: #7cff66 !important;
-	transition: all 0.15s ease;
+.choicediv {
 	cursor: pointer;
-    user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-    -o-user-select: none;
 }
+
+@media (min-width: 769px){
+	.choicediv:hover {
+		background: #7cff66 !important;
+		transition: all 0.15s ease;
+	    user-select: none;
+	    -moz-user-select: none;
+	    -khtml-user-select: none;
+	    -webkit-user-select: none;
+	    -o-user-select: none;
+	}	
+}
+
 
 #scorediv {
 	width: 100%;

@@ -1,20 +1,21 @@
+<?php $title = "Ota yhteyttä – satasanaa.fi"; ?>
+<?php $desc = "Satasanaa.fi on vasta alkutekijöissään – yhteydenotot ja palaute ovat tervetulleita!"; ?>
 <?php include "header.php"; ?>
 
 <div class="index-main container">
 	<h2>Ota yhteyttä</h2>
 	<br>
-	<form role="form">
+	<form role="form" method="post" action="https://formspree.io/anssi.hautaviita@gmail.com">
 		<div class="form-group">
 			<label for="email">Sähköpostiosoitteesi:</label>
-			<input required type="email" class="form-control" id="email">
+			<input required name="email" type="email" class="form-control" id="email">
 		</div>
 		<div class="form-group">
 			<label for="pwd">Viestisi:</label>
-			<textarea required class="form-control" rows="3"></textarea>
+			<textarea required class="form-control" rows="3" name="message" id="message"></textarea>
 		</div>
-		<input required type="checkbox" name="vehicle" value="Bike"> En ole robotti :^)<br><br>
-		<button type="submit" class="btn btn-default">Lähetä viesti</button>
-	</form>
+		<input type="submit" class="btn btn-default" value="Lähetä viesti">
+	</form> 
 </div>
 
 <?php include "footer.php"; ?>

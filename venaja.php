@@ -1,4 +1,11 @@
+<?php $title = "Venäjän kielen 100 yleisintä sanaa – satasanaa.fi"; ?>
+<?php $desc = "Opettelemalla venäjän kielen sata yleisintä sanaa otat ison harppauksen kohti uuden kielen oppimista."; ?>
 <?php include "header.php"; ?>
+
+<!-- Venäjän sanalista -->
+<script src="venaja.js"></script>
+<!-- Alert if IE – toimii paremmin Chromella/Firefoxilla (niin kuin kaikki muukin) -->
+<script src="iealert.js"></script>
 
 <div class="container">
 
